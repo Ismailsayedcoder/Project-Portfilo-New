@@ -2,8 +2,7 @@
   "name": "lion-code-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Ismailsayedcoder.github.io/Project-Portfilo-New"و
-
+  "homepage": "https://Ismailsayedcoder.github.io/Project-Portfilo-New",
   "dependencies": {
     "@react-spring/web": "^9.7.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -30,8 +29,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -55,11 +52,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  },
-  "githubPages": {
-    "enable": true,
-    "repository": "https://github.com/Ismailsayedcoder/my-react-app.git",
-    "branch": "main",
-    "folder": "build"
   }
 }
